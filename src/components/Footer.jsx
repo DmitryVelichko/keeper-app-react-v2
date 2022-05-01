@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <p>
+    <footer>
         Copyright ⓒ {new Date().getFullYear()}
-    </p>
+    </footer>
   )
 }
 
