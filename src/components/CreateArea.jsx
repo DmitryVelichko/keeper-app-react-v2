@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const CreateArea = () => {
+
+    const [note, setNote] = useState();
+
   return (
     <div>
         <form>
