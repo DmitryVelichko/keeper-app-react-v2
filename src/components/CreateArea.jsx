@@ -6,12 +6,18 @@ const CreateArea = () => {
     content: '',
   });
 
+  function handleChange() {
+
+  }
+
   return (
     <div>
       <form>
-        <input name='title' value={note.title} placeholder='Title' />
+        <input name='title' onChange={handleChange} value={note.title} placeholder='Title' />
         <textarea
           name='content'
+          onChange={handleChange}
+          value={note.content}
           placeholder='Take a note...'
           rows='3'
         ></textarea>
