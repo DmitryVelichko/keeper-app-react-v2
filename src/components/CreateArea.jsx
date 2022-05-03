@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 
 const CreateArea = () => {
 
-    const [note, setNote] = useState();
+    const [note, setNote] = useState({
+        title:'',
+    });
 
   return (
     <div>
