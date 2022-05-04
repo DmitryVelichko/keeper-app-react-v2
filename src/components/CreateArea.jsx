@@ -7,13 +7,14 @@ const CreateArea = () => {
   });
 
   function handleChange(event) {
-    const {name, value} = event.target;
+    const { name, value } = event.target;
 
-    setNote(prevNote => {
+    setNote((prevNote) => {
       return {
-        
-      }
-    })
+        ...prevNote,
+        [name]: value,
+      };
+    });
   }
 
   return (
