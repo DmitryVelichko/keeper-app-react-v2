@@ -9,6 +9,11 @@ const CreateArea = () => {
   function handleChange(event) {
     const {name, value} = event.target;
 
+    setNote(prevNote => {
+      return {
+        
+      }
+    })
   }
 
   return (
