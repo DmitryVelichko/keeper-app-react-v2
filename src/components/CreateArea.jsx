@@ -17,6 +17,10 @@ const CreateArea = () => {
     });
   }
 
+  function submitNote() {
+    
+  }
+
   return (
     <div>
       <form>
@@ -33,7 +37,7 @@ const CreateArea = () => {
           placeholder='Take a note...'
           rows='3'
         ></textarea>
-        <button>Add</button>
+        <button onClick={}>Add</button>
       </form>
     </div>
   );
