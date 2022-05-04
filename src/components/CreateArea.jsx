@@ -2,18 +2,24 @@ import React, { useState } from 'react';
 
 const CreateArea = () => {
   const [note, setNote] = useState({
-    title: '',
+    title: 'vv',
     content: '',
   });
 
-  function handleChange() {
+  function handleChange(event) {
+    const {name, value} = event.target;
 
   }
 
   return (
     <div>
       <form>
-        <input name='title' onChange={handleChange} value={note.title} placeholder='Title' />
+        <input
+          name='title'
+          onChange={handleChange}
+          value={note.title}
+          placeholder='Title'
+        />
         <textarea
           name='content'
           onChange={handleChange}
