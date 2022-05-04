@@ -67,4 +67,6 @@ footer p {
   float: right;
   margin-right: 10px;
   color: #f5ba13;
+  border: none;
+  width: 36px;
 }
