@@ -61,3 +61,8 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+.note button {
+  padding: absolute;
+  float: right;
+}
