@@ -94,3 +94,9 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
+
+form button {
+  position: absolute;
+  right: 18px;
+ 
+}
