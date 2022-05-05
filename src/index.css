@@ -88,5 +88,5 @@ form input,
 form textarea {
   width: 100%;
   border: none;
-
-}
+  padding: 4px;
+  
