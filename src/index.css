@@ -79,5 +79,7 @@ form {
   width: 480px;
   margin: 30px auto 20px auto;
   background: #fff;
+  padding: 15px;
+  border-radius: 7px;
  
 }
