@@ -19,6 +19,11 @@ function App() {
     <div>
       <Header />
       <CreateArea onAdd={addNote} />
+      {notes.map((noteItem) => {
+        return <Note 
+          title={noteItem.title}
+        />
+      })}
       <Note key={1} title='title' content='content' />
       <Footer />
     </div>
