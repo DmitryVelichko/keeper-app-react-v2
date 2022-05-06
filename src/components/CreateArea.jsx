@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const CreateArea = () => {
   const [note, setNote] = useState({
-    title: 'vv',
+    title: '',
     content: '',
   });
 

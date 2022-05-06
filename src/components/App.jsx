@@ -12,6 +12,7 @@ function App() {
       <CreateArea 
       
       />
+      <Note key={1} title='title' content='content'/>
       <Footer />
     </div>
   );
