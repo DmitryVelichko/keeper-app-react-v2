@@ -16,6 +16,11 @@ function App() {
   }
 
   function deleteNote(id) {
+    setNotes(prevNotes => {
+      prevNotes.filter((noteItem, index) => {
+        return index !== id;
+      })
+    })
 
   }
 
@@ -24,7 +29,13 @@ function App() {
       <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem) => {
-        return <Note title={noteItem.title} content={noteItem.content} onDelete={deleteNote}/>;
+        return (
+          <Note
+            title={noteItem.title}
+            content={noteItem.content}
+            onDelete={deleteNote}
+          />
+        );
       })}
       <Footer />
     </div>
