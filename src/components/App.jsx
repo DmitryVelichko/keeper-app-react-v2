@@ -6,13 +6,13 @@ import notes from '../notes';
 import CreateArea from './CreateArea';
 
 function App() {
+  function addNote(note) {}
+
   return (
     <div>
       <Header />
-      <CreateArea 
-      
-      />
-      <Note key={1} title='title' content='content'/>
+      <CreateArea onAdd={addNote} />
+      <Note key={1} title='title' content='content' />
       <Footer />
     </div>
   );
