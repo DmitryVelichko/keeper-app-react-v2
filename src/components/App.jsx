@@ -5,7 +5,10 @@ import Note from './Note';
 import notes from '../notes';
 import CreateArea from './CreateArea';
 
+
 function App() {
+  const [notes, setNotes] = useState([]);
+
   function addNote(note) {}
 
   return (
