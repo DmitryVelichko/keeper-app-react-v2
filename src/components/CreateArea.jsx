@@ -45,7 +45,9 @@ const CreateArea = (props) => {
           placeholder='Take a note...'
           rows='3'
         ></textarea>
+        <Zoom in={true}>
         <Fab onClick={submitNote}><AddIcon /></Fab>
+        </Zoom>
       </form>
     </div>
   );
