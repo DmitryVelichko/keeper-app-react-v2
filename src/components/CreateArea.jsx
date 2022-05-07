@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import AddIcon from '@material-ui/icons/Add'
-import Fab from '@material-ui/core/Fab'
-import Zoom from '@material-ui/core/Zoom'
+import AddIcon from '@material-ui/icons/Add';
+import Fab from '@material-ui/core/Fab';
+import Zoom from '@material-ui/core/Zoom';
 
 const CreateArea = (props) => {
   const [note, setNote] = useState({
@@ -46,7 +46,9 @@ const CreateArea = (props) => {
           rows='3'
         ></textarea>
         <Zoom in={true}>
-        <Fab onClick={submitNote}><AddIcon /></Fab>
+          <Fab onClick={submitNote}>
+            <AddIcon />
+          </Fab>
         </Zoom>
       </form>
     </div>
