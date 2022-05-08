@@ -1,4 +1,5 @@
 import React from 'react'
+import HighlightIcon from '@material-ui/icons/HighlightIcon'
 
 const Header = () => {
   return (
