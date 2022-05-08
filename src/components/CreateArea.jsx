@@ -32,6 +32,10 @@ const CreateArea = (props) => {
     event.preventDefault();
   }
 
+  function expand() {
+    setExpanded(true);
+  }
+
   return (
     <div>
       <form className='create-note'>
@@ -43,6 +47,7 @@ const CreateArea = (props) => {
         />
         <textarea
           name='content'
+          onClick={expand}
           onChange={handleChange}
           value={note.content}
           placeholder='Take a note...'
